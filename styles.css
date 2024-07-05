@@ -1,0 +1,76 @@
+@font-face{
+    font-family:inter;
+    src: url('Inter-Regular.ttf');
+}
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 8%);
+    font-family: inter,sans-serif;
+}
+.container {
+    border: 1px solid black;
+    width:80vw;
+    min-width:320px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.container header .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.container header img {
+    border-radius: 50%;
+    width: 100px;
+}
+.container header p{
+    margin-bottom: 20px;
+    color:white;
+    font-weight: 400;
+}
+.container header p,
+h2,
+h3 {
+    text-align: center;
+}
+.container header h2{
+    color:white;
+    font-weight: 700;
+}
+.container header h3 {
+    margin-top: -20px;
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.links{
+    width:80%;
+    margin-bottom:20px;
+}
+.links div{
+    width:95%;
+    text-align: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 20%)
+   
+}
+.links a{
+    text-decoration: none;
+    color:white;
+}
+.links div:active{
+    background-color:hsl(75, 94%, 57%) ;
+    color:hsl(0, 0%, 8%);
+}
